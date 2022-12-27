@@ -1,0 +1,46 @@
+﻿
+.cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: indigo;
+    height: 100%;
+    width: 100%;
+}
+
+.bodyelemant {
+    height: 85%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.loginbox {
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    background-color: gray;
+    box-shadow: 0px 0px 5px #000000
+}
+
+.signupbox {
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+    width: 30%;
+    background-color: gray;
+    box-shadow: 0px 0px 5px #000000
+}
+
+#usernametxt, #passwordtxt, #Button1, #usernametxt2, #pass1, #pass2, #Button2 {
+    width: 80%;
+    font-size: 25px;
+}
+
+#RequiredFieldValidator1, #RequiredFieldValidator2, #RequiredFieldValidator3, #CompareValidator1 {
+    font-size: 15px;
+}
